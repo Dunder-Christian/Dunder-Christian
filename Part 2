@@ -1,0 +1,23 @@
+Windows Powershell Actions and what they do…
+
+Help - displays information about PowerShell concepts and commands, including cmdlets, functions, Common Information Model (CIM) commands, workflows, providers, aliases, and scripts
+
+Get-Location - Shows the drive the powershell is located in
+
+Get-Childitem - gets the items in one or more specified locations
+
+Mkdir - Creates a directory or subdirectory
+
+Set-Location - allows you to specify your current directory location
+
+New-Item - creates a new item and sets its value
+
+Move-Item - moves an item, including its properties, contents, and child items, from one location to another location
+
+Copy-Item - copies an item from one location to another location in the same namespace
+
+Remove-Item - deletes one or more items
+
+Notepad.exe - Opens notepad as a child process of powershell
+
+
