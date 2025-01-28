@@ -1,0 +1,66 @@
+Part 1
+
+My name is Christian Fultz
+
+I'm majoring in Computer Science BA
+
+two projects i am working on actively while i am in this course are... 1,) My game i'm working on with an indie development team i lead called "Cheese Duel" 2.) Code that'll allow you to turn into a prop in the game "Skyrim"
+
+Part 2
+
+Windows Powershell Actions and what they do…
+
+Help - displays information about PowerShell concepts and commands, including cmdlets, functions, Common Information Model (CIM) commands, workflows, providers, aliases, and scripts
+
+Get-Location - Shows the drive the powershell is located in
+
+Get-Childitem - gets the items in one or more specified locations
+
+Mkdir - Creates a directory or subdirectory
+
+Set-Location - allows you to specify your current directory location
+
+New-Item - creates a new item and sets its value
+
+Move-Item - moves an item, including its properties, contents, and child items, from one location to another location
+
+Copy-Item - copies an item from one location to another location in the same namespace
+
+Part 3
+
+My OS is…
+
+[X] Windows
+[] Mac
+[] Linex
+
+Navigating My OS on the Command Line...
+
+1- New-Item -ItemType Directory -Name "DirA"
+
+2- New-Item -ItemType Directory -Name "Dir B"
+
+3- Set-Location .\DirA
+
+4- Set-Location ..\Dir B
+
+5- Set-Location ~
+
+6- New-Item -ItemType File -Name "test.txt"
+
+7- Move-Item .\test.txt .\DirA
+
+8- Set-Content -Path .\DirA\test.txt -Value "Put your words here"
+
+9- Copy-Item .\DirA\test.txt .\DirA\copy.txt
+
+10- Get-ChildItem .\DirA
+
+11- Copy-Item .\DirA\test.txt .\Dir B\fodder.txt
+
+12- Remove-Item .\Dir B\fodder.txt
+Remove-Item .\Dir B -Recurse -Force
+
+Remove-Item - deletes one or more items
+
+Notepad.exe - Opens notepad as a child process of powershell
