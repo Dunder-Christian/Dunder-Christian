@@ -1,0 +1,34 @@
+My OS is…
+
+[X] Windows
+[] Mac
+[] Linex
+
+Navigating My OS on the Command Line...
+
+1- New-Item -ItemType Directory -Name "DirA"
+
+2- New-Item -ItemType Directory -Name "Dir B"
+
+3- Set-Location .\DirA
+
+4- Set-Location ..\Dir B
+
+5- Set-Location ~
+
+6- New-Item -ItemType File -Name "test.txt"
+
+7- Move-Item .\test.txt .\DirA
+
+8- Set-Content -Path .\DirA\test.txt -Value "Put your words here"
+
+9- Copy-Item .\DirA\test.txt .\DirA\copy.txt
+
+10- Get-ChildItem .\DirA
+
+11- Copy-Item .\DirA\test.txt .\Dir B\fodder.txt
+
+12- Remove-Item .\Dir B\fodder.txt
+Remove-Item .\Dir B -Recurse -Force
+
+
